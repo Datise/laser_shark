@@ -2,8 +2,9 @@
 
 FactoryGirl.define do
   factory :day_feedback do
-    mood false
+    mood "Stressed"
     title "MyString"
     text "MyText"
+    day  Date.current
   end
 end
